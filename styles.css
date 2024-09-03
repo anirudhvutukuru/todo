@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  #app {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  #todo-form {
+    margin-bottom: 20px;
+  }
+  
+  #todo-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #todo-list li {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
